@@ -1,0 +1,24 @@
+{
+  "name": "jodot-azure-functions-carrier",
+  "version": "1.0.0",
+  "description": "Run Jodot entirely within Azure Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodot/jodot-azure-functions.git"
+  },
+  "keywords": [
+    "Jodot",
+    "Azure",
+    "functions"
+  ],
+  "author": "Vito Chin <vito@php.net> (http://www.vitochin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jodot/jodot-azure-functions/issues"
+  },
+  "homepage": "https://github.com/jodot/jodot-azure-functions#readme"
+}
