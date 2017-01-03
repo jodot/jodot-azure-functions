@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jodot/jodot-azure-functions/issues"
   },
-  "homepage": "https://github.com/jodot/jodot-azure-functions#readme"
+  "homepage": "https://github.com/jodot/jodot-azure-functions#readme",
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
 }
