@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jodot/jodot-azure-functions#readme",
   "dependencies": {
-    "restify": "^4.3.0"
+    "restify": "^4.3.0",
+    "stringify-object": "^3.1.0"
   }
 }
