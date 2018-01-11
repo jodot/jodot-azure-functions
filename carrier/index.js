@@ -1,17 +1,14 @@
-const restify = require('restify');
-const stringifyObject = require('stringify-object');
-
 module.exports = function (context, req) {
-
-    const pretty = stringifyObject(req, {
-        indent: '  ',
-        singleQuotes: false
-    });
-
-    res = {
-        status: 200,
-        body: pretty
-    };
-
-    context.done(null, res);
+    context.log('JavaScript HTTP trigger function processed a request.');
+    if (req.query.name || (req.body && req.body.name)) {
+        context.res = {
+            body: "Hello " + (req.query.name || req.body.name)
+        };
+    } else {
+        context.res = {
+            status: 400,
+            body: "Please pass a name on the query string or in the request body"
+        };
+    }
+    context.done();
 };

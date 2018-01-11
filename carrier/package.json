@@ -15,14 +15,12 @@
     "Azure",
     "functions"
   ],
-  "author": "Vito Chin <vito@php.net> (http://www.vitochin.com)",
+  "author": "Vito Chin (http://www.vitochin.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jodot/jodot-azure-functions/issues"
   },
   "homepage": "https://github.com/jodot/jodot-azure-functions#readme",
   "dependencies": {
-    "restify": "^4.3.0",
-    "stringify-object": "^3.1.0"
   }
 }
