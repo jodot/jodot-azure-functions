@@ -23,5 +23,7 @@
   },
   "homepage": "https://github.com/jodot/jodot-azure-functions#readme",
   "dependencies": {
+    "azure-storage": "^2.8.0",
+    
   }
 }
